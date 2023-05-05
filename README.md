@@ -1,4 +1,4 @@
-# Dependências Maven
+# Dependências Maven - pom.xml - dentro da tag dependency
 
 ```
 <dependency>
@@ -12,7 +12,7 @@
 	<scope>runtime</scope>
 </dependency>
 ```
-# Configuração do Banco de Dados H2
+# Configuração do Banco de Dados H2 - src/main/resources - cola em application.properties
 ```
 # H2 Connection
 spring.datasource.url=jdbc:h2:mem:testdb
